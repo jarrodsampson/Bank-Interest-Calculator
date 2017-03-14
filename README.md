@@ -19,5 +19,5 @@ Recieve estimated monthly payments based on interest rates, years, and the amoun
 
 ## License
 
-Simple Loan Calculator App is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Bank Interest Calculator App is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
