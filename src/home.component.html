@@ -1,0 +1,56 @@
+<div class="row col-md-12">
+
+    <h1>Bank Interest Calculator</h1>
+    <p><em>Rates shown are based on approximate estimations, exact interest gained will vary by bank.</em></p>
+
+</div>
+
+<div class="row col-md-12">
+    <div class="">
+        <div class="form-group">
+            <label>$ Amount</label>
+            <input class="form-control" type="number" [(ngModel)]="amount" required placeholder="Dollar Amount" min="0" max="100000000" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label># Months</label>
+                <input type="number" class="form-control" [(ngModel)]="allyMonths" required placeholder="Number of Months" max="12" min="1" maxlength="2">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Rate Percentage</label>
+                <input type="number" class="form-control" [(ngModel)]="allyRate" required placeholder="Rate Percentage" min="0" max="100">
+            </div>
+        </div>
+    </div>
+
+    <!-- responsive scrollable table -->
+    <div class="row col-md-12">
+        <div class="table-responsive">
+
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>Daily</th>
+                    <th>Monthly</th>
+                    <th>Quarterly</th>
+                    <th>Semi-Yearly</th>
+                    <th>Yearly</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>${{outComeDaily()}}</td>
+                    <td>${{outComeMonthly()}}</td>
+                    <td>${{outComeQuarterly()}}</td>
+                    <td>${{outComeSemi()}}</td>
+                    <td>${{outComeYearly()}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
