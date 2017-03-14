@@ -1,6 +1,6 @@
 # Bank Interest Calculator
 
-Bank Interest Calculator app built with Angular 2 ,Bootstrap 3, SASS, Typescript, Gulp, and Browserify. Designed by [planlodge](http://planlodge.com).
+Bank Interest Calculator app built with Angular 2, Bootstrap 3, SASS, Typescript, Gulp, and Browserify. Designed by [planlodge](http://planlodge.com).
 
 [![Build Status](https://travis-ci.org/stevenbenner/jquery-powertip.svg?branch=master)](https://travis-ci.org/stevenbenner/jquery-powertip)
 ![License](https://img.shields.io/packagist/l/doctrine/orm.svg)
