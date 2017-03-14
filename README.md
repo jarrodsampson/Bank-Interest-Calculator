@@ -12,10 +12,9 @@ Bank Interest Calculator app built with Angular 2, Bootstrap 3, SASS, Typescript
 > Find out how much bank interest you will recieve based on your rates. Rates are shown based on the total amount, number of months, and interest percent.
 
 ## Features
-- Add, view, and Remove loan quotes and toggle table view
-- Great UI display of the information you are entering as you go along.
-- Calculates the estimated monthly payment that would be payed.
+
 - Responsive and mobile-friendly
+- Calculates the estimated interest that would be payed.
 
 ## License
 
