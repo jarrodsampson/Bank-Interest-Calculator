@@ -5,7 +5,7 @@ Recieve estimated monthly payments based on interest rates, years, and the amoun
 [![Build Status](https://travis-ci.org/stevenbenner/jquery-powertip.svg?branch=master)](https://travis-ci.org/stevenbenner/jquery-powertip)
 ![License](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
-![Image](https://github.com/planlodge/Simple-Loan-Calculator/blob/master/public/assets/images/screen1.png?raw=true)
+![Image](https://github.com/planlodge/Bank-Interest-Calculator/blob/master/src/images/screen1.png?raw=true)
 
 ## Description
 
